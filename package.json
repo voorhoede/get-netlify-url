@@ -1,0 +1,19 @@
+{
+  "name": "get-netlify-url",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "ncc build --minify main.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.1.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.21.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voorhoede/get-netlify-url.git"
+  },
+  "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
+  "license": "ISC"
+}

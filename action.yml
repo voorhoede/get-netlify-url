@@ -1,0 +1,18 @@
+name: 'Get Netlify deployment URL'
+description: 'Get Netlify deployment URL at the current branch'
+inputs:
+  site-name:
+    description: 'Netlify site name, defaults to repository name'
+    required: false
+  basic-auth-username:
+    description: 'Basic authentication username'
+    required: false
+  basic-auth-password:
+    description: 'Basic authentication password'
+    required: false
+outputs:
+  url:
+    description: 'The Netlify deployment URL'
+runs:
+  using: 'node12'
+  main: 'main.js'
