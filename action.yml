@@ -15,4 +15,4 @@ outputs:
     description: 'The Netlify deployment URL'
 runs:
   using: 'node12'
-  main: 'main.js'
+  main: 'dist/index.js'
