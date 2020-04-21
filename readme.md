@@ -4,7 +4,7 @@ This GitHub action gets the Netlify deployment URL at the current branch.
 ## Basic example
 ```yaml
 - name: 'Get Netlify URL'
-  uses: voorhoede/get-netlify-url
+  uses: voorhoede/get-netlify-url@v1
   id: get-netlify-url
 
 - name : 'Log retrieved URL'
