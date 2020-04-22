@@ -4,7 +4,7 @@ This GitHub action gets the Netlify deployment URL at the current branch.
 ## Basic example
 ```yaml
 - name: 'Get Netlify URL'
-  uses: voorhoede/get-netlify-url@v1
+  uses: voorhoede/get-netlify-url@v2
   id: get-netlify-url
 
 - name : 'Log retrieved URL'
@@ -41,8 +41,8 @@ jobs:
     name: Run integration tests
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: voorhoede/get-netlify-url@v1
+      - uses: actions/checkout@v2
+      - uses: voorhoede/get-netlify-url@v2
         id: get-netlify-url
       - uses: cypress-io/github-action@v1
         env:
